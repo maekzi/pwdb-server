@@ -2,7 +2,7 @@
   "name": "pwdb-server",
   "version": "0.2",
   "private": true,
-  "packageManager": "yarn@3.2.4",
+  "packageManager": "yarn@3.3.0",
   "dependencies": {
     "@aws-sdk/util-endpoints": "^3.226.0",
     "@keystone-6/auth": "^6.0.0",
