@@ -1,0 +1,52 @@
+# Keystone
+.keystone/*
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Swap the comments on the following lines if you don't wish to use zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+#!.yarn/cache
+#.pnp.*
+
+# Dependency directories
+node_modules/
+
+# OS
+.DS_Store
+.idea
+.fleet
+
+# Editor
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+package-lock.json
+
+dist/
+
+# jest_ci output
+junit.xml
+
+# Used by the image field type tests as a storage target
+tmp_test_images/
+tmp_test_files/
+
+# SQLite databases
+*.db
+*.db-journal
+
+# Generated files from build process
+robots.txt
+sitemap.xml
+
+# MISC
+.env
+projects/
+temp/

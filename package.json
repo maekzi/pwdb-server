@@ -1,0 +1,30 @@
+{
+  "name": "pwdb-server",
+  "version": "0.2",
+  "private": true,
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "@aws-sdk/util-endpoints": "^3.226.0",
+    "@keystone-6/auth": "^6.0.0",
+    "@keystone-6/core": "^4.0.1",
+    "@keystone-6/fields-document": "^6.0.0"
+  },
+  "scripts": {
+    "build": "keystone build",
+    "deploy": "keystone build && keystone prisma migrate deploy",
+    "dev": "keystone dev",
+    "postinstall": "keystone postinstall",
+    "start": "NODE_ENV=production keystone start",
+    "test": "jest --runInBand --testTimeout=60000",
+    "telemetry-disable": "keystone telemetry disable",
+    "seed-data": "keystone --seed-data"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.11",
+    "dotenv": "^16.0.3",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": "^18.8.0"
+  }
+}
