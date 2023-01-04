@@ -10,12 +10,12 @@
 ## Setup
 
 0. `npm i -g yarn` Install Yarn
-1. `yarn install` Install Packages
-2. `cp .env.exampe .env` Edit Variables. If you need more Help look below the Setup Section
-2. `yarn postinstall`
-3. `yarn telemetry-disable` Opt out of telemetry before first start 
-4. `yarn dev` start keystone server
-5. Go to your Backend URL and do the first time Setup for the Admin User.
+1. `cp .env.exampe .env` Edit Variables. If you need more Help look below the Setup Section
+2. `yarn install` Install Packages
+3. `yarn postinstall`
+4. `yarn telemetry-disable` Opt out of telemetry before first start 
+5. `yarn dev` start keystone server
+6. Go to your Backend URL and do the first time Setup for the Admin User.
 
 ### Setup Help
 
